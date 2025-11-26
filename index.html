@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>Simo fix</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+<h1>Simo fix</h1>
+<p>حاسبة ذهبية تعمل على جميع الأزواج والمؤشرات</p>
+
+<label>سعر الدخول</label>
+<input id="entry" type="number">
+
+<label>نوع الصفقة</label>
+<select id="type">
+<option value="sell">قمة بيع</option>
+<option value="buy">قاع شراء</option>
+</select>
+
+<button onclick="calc()">احسب الآن</button>
+
+<div id="results"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
